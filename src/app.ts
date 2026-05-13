@@ -10,9 +10,10 @@ function updateCurrentTime() {
     }
     const currentBeats = Math.floor((((currentTime.hours + 5) % 24) * 3600 + currentTime.minutes * 60 + currentTime.seconds) / 86.4);
 
+    let secondsString = `${currentTime.seconds}`.length < 2 ? `0${currentTime.seconds}` : `${currentTime.seconds}`;
     let minutesString = `${currentTime.minutes}`.length < 2 ? `0${currentTime.minutes}` : `${currentTime.minutes}`;
 
-    const timeString = `${currentTime.hours}:${minutesString}:${currentTime.seconds}`;
+    const timeString = `${currentTime.hours}:${minutesString}:${secondsString}`;
     const beatsString = `@${currentBeats}`;
 
     localTimeElement.innerText = timeString;
