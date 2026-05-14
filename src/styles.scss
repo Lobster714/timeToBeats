@@ -10,11 +10,52 @@ h1, p {
 
 h1 {
     color: #cdd6f4;
-    font-size: 50px;
+    font-size: 3vw;
 }
 
 p {
-    font-size: 35px;
     margin: 5px;
     color: #a6adc8;
+    font-size: 2vw;
+}
+
+input {
+    margin: 10px;
+    font-family: 'Roboto';
+    font-size: 1vw;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 2px solid #313244;
+    color: #a6adc8;
+    background-color: #11111b;
+    padding: 10px;
+}
+
+button {
+    margin: 10px;
+    font-family: 'Roboto';
+    font-size: 1.5vw;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 2px solid #313244;
+    color: #a6adc8;
+    background-color: #11111b;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: #313244;
+}
+
+input:hover, button:hover {
+    cursor: pointer;
+}
+
+#inp {
+    text-align: center;
+    align-content: center;
+}
+
+#errorOutput {
+    margin-top: 0px;
 }
