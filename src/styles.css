@@ -34,19 +34,19 @@ h1, p {
 
 h1 {
     color: var(--text);
-    font-size: 5.5vh;
+    font-size: 5vh;
 }
 
 p {
     margin: 4.5px;
     color: var(--subtext-zero);
-    font-size: 4vh;
+    font-size: 3.5vh;
 }
 
 input {
     margin: 10px;
     font-family: 'Garet Book';
-    font-size: 2.5vh;
+    font-size: 2vh;
     margin-bottom: 20px;
     border-radius: 5px;
     border: 2px solid var(--surface-zero);
@@ -64,7 +64,7 @@ input:focus {
 button {
     margin: 10px;
     font-family: 'Garet Book';
-    font-size: 3vh;
+    font-size: 2.5vh;
     margin-bottom: 20px;
     border-radius: 5px;
     border: 2px solid var(--surface-zero);
