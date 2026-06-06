@@ -1,0 +1,90 @@
+:root {
+    --crust: #11111b;
+    --base: #1e1e2e;
+    --surface-zero: #313244;
+    --subtext-zero: #a6adc8;
+    --text: #cdd6f4;
+    --mauve: #cba6f7;
+    --red: #f38ba8;
+    --blue: #89b4fa;
+}
+
+::selection {
+    background: var(--mauve);
+    color: var(--crust);
+    text-shadow: none;
+}
+
+@font-face {
+    font-family: 'Garet Book';
+    src: url(../src/fonts/Garet-Book.ttf);
+}
+
+header {
+    text-align: right;
+}
+
+* {
+    font-family: 'Garet Book';
+}
+
+h1, p {
+    text-align: center;
+}
+
+h1 {
+    color: var(--text);
+    font-size: 3vw;
+}
+
+p {
+    margin: 5px;
+    color: var(--subtext-zero);
+    font-size: 2vw;
+}
+
+input {
+    margin: 10px;
+    font-family: 'Garet Book';
+    font-size: 1vw;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 2px solid var(--surface-zero);
+    color: var(--subtext-zero);
+    background-color: var(--crust);
+    padding: 10px;
+}
+
+input:focus {
+    border-radius: 5px;
+    border: 2px solid var(--blue);
+    outline: none;
+}
+
+button {
+    margin: 10px;
+    font-family: 'Garet Book';
+    font-size: 1.5vw;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 2px solid var(--surface-zero);
+    color: var(--subtext-zero);
+    background-color: var(--crust);
+    padding: 10px;
+}
+
+button:hover, input:hover {
+    background-color: var(--surface-zero);
+    border-color: var(--mauve);
+    cursor: pointer;
+}
+
+.inp {
+    text-align: center;
+    align-content: center;
+}
+
+.collapsible {
+    margin-top: 0px;
+    display: none;
+}
